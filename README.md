@@ -1,22 +1,5 @@
-# My plugin
+# Weather Info
 
-Write here all the useful information about your plugin.
-
-This repository is the template to automate the release of official Deep AI plugins. 
-
-## Usage
-
-1. Create a new repository clicking on the `Use this template` button.
-2. Clone your new repo directly in the Bot's `plugins` folder.
-3. Run the `setup.py` script:
-    ```bash
-    python setup.py
-    ```
-    The script will prompt you to write the name of your plugin and make an initial setup setting the name in the files.
-
-4. Start developing!
-
-> **Important**
-> A new release of your plugin is triggered every time you set a new `version` in the `plugin.json` file.
-> Please, remember to set it correctly every time to want to release an update.
+Retrieve the current weather and weather forecast for the specified city based on the provided weather-related query.
+Replies to "What's the weather of Beijing?", "How is the Shanghai's weather", "上海天气怎么样？", "今天北京天气如何？" and similar questions.
 
