@@ -17,7 +17,7 @@ model = OpenAI(model_name=model_name, temperature=temperature)
 
 class WeatherRequest(BaseModel):
 	setup: str = Field(description="user question")
-	city: str = Field(description="name of the city to get weather information")
+	city: str = Field(description="city: str = Field(description="name of the city to get weather information, be sure to translate it to English")")
 
 
 def get_city(user_query: str):
