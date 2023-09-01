@@ -4,7 +4,7 @@ import emoji
 import requests
 
 from mad_hatter.decorators import tool
-from plugins.weather_info.city_parser import get_city
+from storage.plugins.weather_info.city_parser import get_city
 
 
 def get_weather(api_key, city):
