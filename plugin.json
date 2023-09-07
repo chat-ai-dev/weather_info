@@ -1,10 +1,10 @@
 {
     "name": "Weather Info",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "Retrieve the current weather and weather forecast for the specified city based on the provided weather-related query. Replies to 'What's the weather of Beijing?', 'How is the Shanghai's weather', '上海天气怎么样？', '今天北京天气如何？' and similar questions.",
     "author_name": "Kevin Zhang",
     "author_url": "https://github.com/KevinZhang19870314",
     "plugin_url": "https://github.com/KevinZhang19870314/weather_info",
     "tags": "weather forecast,openweathermap.org",
-    "thumb": "https://raw.githubusercontent.com/my_repo_path/weather_info.png"
+    "thumb": "https://raw.githubusercontent.com/chat-ai-dev/weather_info/main/weather_info.png"
 }
